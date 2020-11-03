@@ -1,4 +1,4 @@
-console.log('js');
+console.log('addition js');
 // take two number variables
 function addition(num1, num2){
     // add the two variables and return
