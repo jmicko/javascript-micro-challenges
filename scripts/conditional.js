@@ -1,11 +1,15 @@
 console.log('conditional js');
 
+// take 2 inputs
 function bigger(num1, num2) {
+    // check if num1 is bigger
     if (num1 > num2) {
         return "The first number was bigger!";
+        // otherwise check if num2 is bigger
     } else if (num1 < num2) {
         return "The second number was bigger!";
     }
+    // if neither is bigger, they must be equal
     return "The numbers are the same!";
 }
 
